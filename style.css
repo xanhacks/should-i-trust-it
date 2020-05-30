@@ -130,7 +130,7 @@ header h1{
   border: none;
   background: rgba(0, 0, 0, 0);
 
-  font-size: 1.2vw;
+  font-size: 1vw;
 }
 
 .input img{
@@ -145,6 +145,63 @@ header h1{
   font-family: Desc;
   font-size: 0.6vw;
   opacity: 0.7;
+}
+
+.report h1{
+  color: #6c63ff;
+  text-align: center;
+  margin-top: 3.5%;
+
+  font-family: Subtitle;
+  font-size: 2.5vw;
+}
+
+.report h3{
+  color: #111;
+  text-align: center;
+  margin-top: 3.5%;
+
+  font-family: Subtitle;
+  font-size: 1.5vw;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.report h3 a{
+  color: #6c63ff;
+}
+
+.chart{
+  background: #ddd;
+  border-radius: 100px;
+  width: 4.5vw;
+  height: 4.5vw;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+.chart h4{
+  color: #000;
+  font-family: Subtitle;
+  font-size: 1.5vw;
+  padding-top: 50%;
+  transform: translate(0%, -25%);
+}
+
+.report p{
+  font-family: Desc;
+  font-size: 1vw;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.report .desc{
+  width: 40%;
+  margin-left: 30%;
+  text-align: center;
+  font-size: 1.3vw;
 }
 
 /* RESPONSIVE:  */
@@ -182,5 +239,42 @@ header h1{
     width: 39vw;
     font-size: 4.5vw;
     padding: 2.7vw 3.5vw;
+  }
+
+  .subtitle, .report h1{
+    font-size: 5.5vw;
+    margin-top: 10vw;
+  }
+
+  .search{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 8%;
+  }
+
+  .input input{
+    width: 90%;
+    padding: 1% 1% 1% 3%;
+    font-size: 3vw;
+  }
+
+  .input img{
+    height: 4vw;
+    margin-bottom: 0.3vw;
+    padding-right: 3%;
+  }
+
+  .search p{
+    margin-top: 10%;
+    font-size: 2.5vw;
+    width: 80%;
+  }
+
+  .report h3{
+    margin-top: 5%;
+
+    font-size: 3vw;
+    width: 70%;
+    margin-left: 15%;
   }
 }

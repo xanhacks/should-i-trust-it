@@ -8,4 +8,30 @@ if (isurl == "https") {
   console.log(1);
 }
 
-alert(query);
+if (query == "signal") {
+  var query = "org.thoughtcrime.securesms";
+}
+
+$.ajax({
+    url:'./reports/' + query + '.html',
+    type:'HEAD',
+    error: function()
+    {
+      $(".report").load("./reports/404.html");
+    },
+    success: function()
+    {
+    $(function(){
+      $(".report").load("./reports/" + query + ".html");
+      setTimeout(
+        function()
+        {
+          var score = $(".score").html();
+          if (score > 66) {
+            $(".chart h4").css({"color":"#220022"});
+            $(".chart").css({"border":"3px solid green"});
+          }
+        }, 100);
+    });
+    }
+});
