@@ -241,7 +241,7 @@ header h1{
 }
 
 .report a{
-  color: 6C63FF;
+  color: 6c63ff !important ;
 }
 
 .line{
