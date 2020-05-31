@@ -479,4 +479,12 @@ header h1{
     height: 3.5vw;
     vertical-align: middle;
   }
+
+  #darkMode{
+    width: 25px;
+    height: 25px;
+  }
+  .dark{
+    padding: 9px 9px 7px 10px;
+   }
 }
