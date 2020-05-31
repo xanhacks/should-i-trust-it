@@ -240,6 +240,10 @@ header h1{
   box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.2);
 }
 
+.report a{
+  color: 6C63FF;
+}
+
 .line{
   background: linear-gradient(147deg, rgba(8,10,147,1) 0%, rgba(0,170,255,1) 100%);
   width: 7%;
@@ -337,7 +341,7 @@ header h1{
   }
 
   .report p{
-    font-size: 3vw;
+    font-size: 3.3vw;
     width: 80%;
     margin-left: 10%;
     margin-top: 6%;
