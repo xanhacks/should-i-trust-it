@@ -167,26 +167,33 @@ header h1{
   margin-left: 25%;
 }
 
-.report h3 a{
-  color: #6c63ff;
+.report h2{
+  color: #111;
+  margin-top: 3.5%;
+
+  font-family: Subtitle;
+  font-size: 1.5vw;
+  width: 50%;
 }
 
-.chart{
-  background: #ddd;
-  border-radius: 100px;
-  width: 4.5vw;
-  height: 4.5vw;
-  text-align: center;
-  margin-left: 30%;
-  margin-top: 5%;
+.report h3 a{
+  color: #6c63ff;
 }
 
 .chart h4{
   color: #000;
   font-family: Subtitle;
   font-size: 1.5vw;
-  padding-top: 50%;
-  transform: translate(0%, -25%);
+  display: inline-block;
+}
+
+.chart .dot{
+  width: 1.2vw;
+  height: 1.2vw;
+  background: #000;
+  border-radius: 100px;
+  display: inline-block;
+  vertical-align: sub;
 }
 
 .report p{
@@ -202,6 +209,25 @@ header h1{
   margin-left: 30%;
   text-align: center;
   font-size: 1.3vw;
+}
+
+.report .head img{
+  width: 4vw;
+  height: 4vw;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.head{
+  margin-left: 50%;
+  transform: translate(-12.5%, 0%);
+  margin-top: 3%;
+}
+
+.report .wrap{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 1vw;
 }
 
 /* RESPONSIVE:  */

@@ -28,9 +28,13 @@ $.ajax({
         {
           var score = $(".score").html();
           if (score > 66) {
-            $(".chart h4").css({"color":"#220022"});
-            $(".chart").css({"border":"3px solid green"});
+            $(".chart .dot").css({"background":"green"});
+          } else if (score > 33) {
+            $(".chart .dot").css({"background":"orange"});
+          } else {
+            $(".chart .dot").css({"background":"red"});
           }
+          $(".score").html($(".score").html() + "/100");
         }, 100);
     });
     }
