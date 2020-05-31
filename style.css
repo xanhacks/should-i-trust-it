@@ -358,28 +358,20 @@ header h1{
 }
 
 .head{
-  margin-left: 50%;
   transform: translate(-33%, 0%);
-  padding-top: 3%;
+  padding-top: 9%;
   margin-top: 15%;
 }
  
 .line{
-  background: linear-gradient(147deg, rgba(8,10,147,1) 0%, rgba(0,170,255,1) 100%);
   width: 12%;
   height: 1.5vw;
-  border-radius: 100px;
-  margin-left: 50%;
-  transform: translate(-50%, 0%);
   margin-top: 5%;
 }
 
 .report h2{
-  margin-top: 9%;
-
-  font-family: Subtitle;
+  margin-top: 5%;
   font-size: 4.3vw;
-  width: 50%;
 }
 
 .chart h4{
@@ -389,10 +381,6 @@ header h1{
 .chart .dot{
   width: 3vw;
   height: 3vw;
-  background: #000;
-  border-radius: 100px;
-  display: inline-block;
-  vertical-align: sub;
 }
 
 }
