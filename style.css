@@ -340,6 +340,7 @@ header h1{
   width: 80%;
   margin-left: 10%;
   margin-top: 6%;
+  padding-bottom: 6%;
 }
 
 .report .desc{
@@ -380,4 +381,18 @@ header h1{
   font-size: 5vw;
   width: 50%;
 }
+
+.chart h4{
+  font-size: 5vw;
+}
+
+.chart .dot{
+  width: 3vw;
+  height: 3vw;
+  background: #000;
+  border-radius: 100px;
+  display: inline-block;
+  vertical-align: sub;
+}
+
 }
