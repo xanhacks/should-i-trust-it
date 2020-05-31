@@ -221,13 +221,32 @@ header h1{
 .head{
   margin-left: 50%;
   transform: translate(-12.5%, 0%);
-  margin-top: 3%;
+  padding-top: 3%;
+  margin-top: 5%;
 }
 
 .report .wrap{
   display: inline-block;
   vertical-align: top;
   margin-left: 1vw;
+}
+
+.report{
+  background: #fff;
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.2);
+}
+
+.line{
+  background: linear-gradient(147deg, rgba(8,10,147,1) 0%, rgba(0,170,255,1) 100%);
+  width: 7%;
+  height: .5vw;
+  border-radius: 100px;
+  margin-left: 50%;
+  transform: translate(-50%, 0%);
+  margin-top: 2%;
 }
 
 /* RESPONSIVE:  */
