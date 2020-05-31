@@ -27,6 +27,7 @@
 
 body{
   background: #EEE;
+  padding-bottom: 5vw;
 }
 
 a{
@@ -330,57 +331,53 @@ header h1{
     box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.2);
   }
 
-.report h3{
-  margin-top: 3.5%;
-  font-size: 5vw;
+  .report h3{
+    margin-top: 3.5%;
+    font-size: 5vw;
   }
 
-.report p{
-  font-size: 3vw;
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 6%;
-  padding-bottom: 6%;
-}
+  .report p{
+    font-size: 3vw;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 6%;
+    padding-bottom: 6%;
+  }
 
-.report .desc{
-  width: 70%;
-  margin-left: 15%;
-  text-align: center;
-  font-size: 3.9vw;
-}
+  .report .desc{
+    width: 70%;
+    margin-left: 15%;
+    font-size: 3.9vw;
+  }
 
-.report .head img{
-  width: 12vw;
-  height: 12vw;
-  display: inline-block;
-  border-radius: 10px;
-}
+  .report .head img{
+    width: 12vw;
+    height: 12vw;
+  }
 
-.head{
-  transform: translate(-33%, 0%);
-  padding-top: 9%;
-  margin-top: 15%;
-}
+  .head{
+    transform: translate(-33%, 0%);
+    padding-top: 9%;
+    margin-top: 15%;
+  }
  
-.line{
-  width: 12%;
-  height: 1.5vw;
-  margin-top: 5%;
-}
+  .line{
+    width: 12%;
+    height: 1.5vw;
+    margin-top: 5%;
+  }
 
-.report h2{
-  margin-top: 5%;
-  font-size: 4.3vw;
-}
+  .report h2{
+    margin-top: 5%;
+    font-size: 4.3vw;
+  }
 
-.chart h4{
-  font-size: 4.3vw;
-}
+  .chart h4{
+    font-size: 4.3vw;
+  }
 
-.chart .dot{
-  width: 3vw;
-  height: 3vw;
-}
-
+  .chart .dot{
+    width: 3vw;
+    height: 3vw;
+  }
 }
