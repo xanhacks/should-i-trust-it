@@ -334,4 +334,32 @@ header h1{
   margin-top: 3.5%;
   font-size: 5vw;
   }
+
+.report p{
+  font-size: 3vw;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.report .desc{
+  width: 40%;
+  margin-left: 30%;
+  text-align: center;
+  font-size: 3.9vw;
+}
+
+.report .head img{
+  width: 12vw;
+  height: 12vw;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.head{
+  margin-left: 50%;
+  transform: translate(-12.5%, 0%);
+  padding-top: 3%;
+  margin-top: 15%;
+}
 }
