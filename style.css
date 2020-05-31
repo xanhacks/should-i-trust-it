@@ -35,6 +35,27 @@ a{
   text-decoration: none;
 }
 
+.dark{
+  background: #000;
+  position: fixed;
+  padding: 11px 12px 9px 12px;
+  border-radius: 100px;
+  bottom: 30px;
+  right: 30px;
+  box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.5), 0px 4px 4px rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  cursor: pointer;
+}
+
+.dark img:hover{
+  width: 33px;
+}
+
+.dark img{
+  width: 30px;
+  transition: 1s;
+}
+
 header{
   box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.3);
   background: #fff;
@@ -64,7 +85,7 @@ header h1{
   margin-top: 11%;
 }
 
-.description h3{
+.description h3, .popup h3{
   color: #6c63ff;
   text-align: center;
   margin-bottom: 5%;
@@ -181,6 +202,10 @@ header h1{
   color: #6c63ff;
 }
 
+.chart{
+  cursor: pointer;
+}
+
 .chart h4{
   color: #000;
   font-family: Subtitle;
@@ -188,16 +213,41 @@ header h1{
   display: inline-block;
 }
 
-.chart .dot{
+.report .dot{
   width: 1.2vw;
   height: 1.2vw;
   background: #000;
   border-radius: 100px;
   display: inline-block;
   vertical-align: sub;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.4);
 }
 
-.report p{
+.green{
+  background: green !important;
+  vertical-align: middle !important;
+  margin-left: 15px;
+}
+
+.red{
+  background: red !important;
+  vertical-align: middle !important;
+  margin-left: 15px;
+}
+
+.orange{
+  background: orange !important;
+  vertical-align: middle !important;
+  margin-left: 15px;
+}
+
+.yellow{
+  background: yellow !important;
+  vertical-align: middle !important;
+  margin-left: 15px;
+}
+
+.report p, .popup p{
   font-family: Desc;
   font-size: 1vw;
   width: 60%;
@@ -238,6 +288,7 @@ header h1{
   margin-left: 15%;
   border-radius: 10px;
   box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.2);
+  padding-bottom: 7vw;
 }
 
 .report a{
@@ -252,6 +303,49 @@ header h1{
   margin-left: 50%;
   transform: translate(-50%, 0%);
   margin-top: 2%;
+}
+
+.popup{
+  background: #fff;
+  position: absolute;
+  width: 35vw;
+  height: 35vw;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 3000px rgba(0,0,0,0.2), 0px 0px 15px 3px rgba(0,0,0,0.5);
+  z-index: 100;
+  margin-left: 50%;
+  margin-top: 50%;
+  transform: translate(-50%, -150%);
+}
+
+.popup h3{
+  margin-top: 2vw;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.popup p{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 2vw;
+  font-size: 1vw;
+  line-height: 2vw;
+  font-family: Subtitle;
+}
+
+.popup .cross{
+  font-family: Subtitle;
+  font-weight: 800;
+  background: #6c63ff;
+  width: 1.3vw;
+  font-size: 1vw;
+  text-align: center;
+  color: #fff;
+  border-radius: 100px;
+  float: right;
+  margin: .5vw;
+  cursor: pointer;
+  user-select: none;
 }
 
 /* RESPONSIVE:  */
@@ -364,7 +458,7 @@ header h1{
     padding-top: 9%;
     margin-top: 15%;
   }
- 
+
   .line{
     width: 12%;
     height: 1.5vw;
@@ -380,8 +474,9 @@ header h1{
     font-size: 4.3vw;
   }
 
-  .chart .dot{
-    width: 3vw;
-    height: 3vw;
+  .report .dot{
+    width: 3.5vw;
+    height: 3.5vw;
+    vertical-align: middle;
   }
 }

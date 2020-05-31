@@ -2,6 +2,15 @@ var queryString = window.location.search;
 var urlParams = new URLSearchParams(queryString);
 var query = urlParams.get('s')
 var isurl = query.slice(0, 5);
+$(".popup").hide();
+
+function popup() {
+  $(".popup").show();
+}
+
+function hide_popup() {
+  $(".popup").hide();
+}
 
 if (isurl == "https") {
   var query = query.slice(46, query.lenght);
@@ -35,7 +44,7 @@ $.ajax({
             $(".chart .dot").css({"background":"red"});
           }
           $(".score").html($(".score").html() + "/100");
-        }, 100);
+        }, 200);
     });
     }
 });
