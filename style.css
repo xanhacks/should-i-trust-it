@@ -351,15 +351,15 @@ header h1{
 }
 
 .report .head img{
-  width: 12vw;
-  height: 12vw;
+  width: 11vw;
+  height: 11vw;
   display: inline-block;
   border-radius: 10px;
 }
 
 .head{
   margin-left: 50%;
-  transform: translate(-12.5%, 0%);
+  transform: translate(-25%, 0%);
   padding-top: 3%;
   margin-top: 15%;
 }
