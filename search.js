@@ -30,6 +30,19 @@ if (query == "telegram") {
   var query = "org.telegram.messenger";
 }
 
+setTimeout(
+  function()
+  {
+    var exodus = parseInt($(".1").html()) / 3 * 25;
+    var policy = parseInt($(".2").html()) / 3 * 25;
+    var cipher = parseInt($(".3").html()) / 3 * 17.5;
+    var opensource = parseInt($(".4").html()) / 3 * 17.5;
+    var company = parseInt($(".5").html()) / 3 * 15;
+    var total = exodus + policy + cipher + opensource + company;
+    $(".score").html(Math.round(total));
+  }, 300);
+
+
 $.ajax({
     url:'./reports/' + query + '.html',
     type:'HEAD',
@@ -53,7 +66,7 @@ $.ajax({
             $(".chart .dot").css({"background":"red"});
           }
           $(".score").html($(".score").html() + "/100");
-        }, 200);
+        }, 300);
     });
     }
 });
