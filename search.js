@@ -21,6 +21,10 @@ if (query == "signal") {
   var query = "org.thoughtcrime.securesms";
 }
 
+if (query == "whatsapp") {
+  var query = "com.whatsapp";
+}
+
 $.ajax({
     url:'./reports/' + query + '.html',
     type:'HEAD',
