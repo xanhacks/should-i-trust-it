@@ -44,7 +44,7 @@ function darkMode(){
           color: toggle ? "#000" : "#f1f1f1"
         }, "-= 600")
         .add({
-          targets: "header, .report",
+          targets: "header, .report, .popup",
           backgroundColor: toggle ? "#fff" : "#000"
         }, "-= 600")
         .add({
