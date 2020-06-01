@@ -26,11 +26,11 @@ function darkMode(){
           d: [{
             value: toggle ? sunPath : moonPath
           }]
-        })
+        }, "-= 200")
         .add({
           targets: "#darkMode",
           rotate: 320
-        }, "-= 100")
+        }, "-= 200")
         .add({
           targets: "body",
           backgroundColor: toggle ? "#eee" : "#111"
@@ -62,5 +62,5 @@ function darkMode(){
         }
 
       toggle =! toggle;
-    }, 200);
+    }, 300);
   };
