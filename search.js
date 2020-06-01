@@ -1,6 +1,7 @@
 var queryString = window.location.search;
 var urlParams = new URLSearchParams(queryString);
-var query = urlParams.get('s')
+var query = urlParams.get('s');
+var query = query.toLowerCase();
 var isurl = query.slice(0, 5);
 $(".popup").hide();
 
@@ -23,6 +24,10 @@ if (query == "signal") {
 
 if (query == "whatsapp") {
   var query = "com.whatsapp";
+}
+
+if (query == "telegram") {
+  var query = "org.telegram.messenger";
 }
 
 $.ajax({
