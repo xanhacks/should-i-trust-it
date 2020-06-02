@@ -30,6 +30,10 @@ if (query == "telegram") {
   var query = "org.telegram.messenger";
 }
 
+if (query == "messenger") {
+  var query = "com.facebook.orca";
+}
+
 setTimeout(
   function()
   {
