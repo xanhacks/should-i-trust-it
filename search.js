@@ -34,6 +34,10 @@ if (query == "messenger") {
   var query = "com.facebook.orca";
 }
 
+if (query == "briar") {
+  var query = "org.briarproject.briar.android";
+}
+
 setTimeout(
   function()
   {
