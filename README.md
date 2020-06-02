@@ -10,6 +10,10 @@
 - Le fait que le service soit Open-source ou non 17.5%
 - La réputation de l'entreprise 15%
 
+  ## Remerciement 🏆
+  
+- Atlantis pour m'avoir fournir un grand nombre d'applications !
+
 ## Et si je veux vous aider ? 💡
 
 #### Ce serait avec grand plaisir ! Voici la marche à suivre pour créer un report d'app :
@@ -30,7 +34,3 @@
   - si la balise .dot a la classe yellow ajoutez 2 après cette balise
   - si la balise .dot a la classe orange ajoutez 1 après cette balise
   - si la balise .dot a la classe red ajoutez 0 après cette balise
-  
-  ## Remerciement 🏆
-  
-  - Atlantis pour m'avoir fournir un grand nombre d'applications !
