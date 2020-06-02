@@ -24,7 +24,7 @@
   - Comment trouver l'id d'un app ? Il suffit d'aller sur sa page sur le Google Play Store, l'id sera dans l'url !
 - Copier le contenu d'un autre report deja fait dans ce nouveau fichier
 - Modifier le nom de l'app, les liens vers Exodus Privacy, le lien vers le Google Play Store *le remplacer par f-droid quand cela est possible*
-- Vous pouvez ensuite modifier le texte entre les balises \<p>, à chaque fois, modifiez la classe de la balise \<div class="dot ***couleur*** ***chiffreDe1à5àNePasModifier***">, assigner une classe parmis les couleurs suivantes à rubrique
+- Vous pouvez ensuite modifier le texte entre les balises \<p>, à chaque fois, modifiez la classe de la balise \<div class="dot ***couleur*** ***chiffreDe1à5àNePasModifier***">, assigner une classe parmis les couleurs suivantes à chaque rubrique
   - green
   - yellow
   - orange
