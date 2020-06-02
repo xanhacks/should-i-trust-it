@@ -20,25 +20,15 @@ if (isurl == "https") {
 
 if (query == "signal") {
   var query = "org.thoughtcrime.securesms";
-}
-
-if (query == "whatsapp") {
+} else if (query == "whatsapp") {
   var query = "com.whatsapp";
-}
-
-if (query == "telegram") {
+} else if (query == "telegram") {
   var query = "org.telegram.messenger";
-}
-
-if (query == "messenger") {
+} else if (query == "messenger") {
   var query = "com.facebook.orca";
-}
-
-if (query == "briar") {
+} else if (query == "briar") {
   var query = "org.briarproject.briar.android";
-}
-
-if (query == "snapchat") {
+} else if (query == "snapchat") {
   var query = "com.snapchat.android";
 }
 

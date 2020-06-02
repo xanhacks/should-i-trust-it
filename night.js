@@ -48,7 +48,7 @@ function darkMode(){
           backgroundColor: toggle ? "#fff" : "#000"
         }, "-= 600")
         .add({
-          targets: "header h1",
+          targets: "header h1 a",
           color: toggle ? "#000" : "#fff"
         }, "-= 600");
 
