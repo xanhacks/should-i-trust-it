@@ -38,6 +38,10 @@ if (query == "briar") {
   var query = "org.briarproject.briar.android";
 }
 
+if (query == "snapchat") {
+  var query = "com.snapchat.android";
+}
+
 setTimeout(
   function()
   {

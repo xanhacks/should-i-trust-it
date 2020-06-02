@@ -35,6 +35,10 @@ a{
   text-decoration: none;
 }
 
+h1 a{
+  color: #000;
+}
+
 .dark{
   background: #000;
   position: fixed;
@@ -268,6 +272,7 @@ header h1{
   height: 4vw;
   display: inline-block;
   border-radius: 10px;
+  box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.5);
 }
 
 .head{
