@@ -30,6 +30,8 @@ if (query == "signal") {
   var query = "org.briarproject.briar.android";
 } else if (query == "snapchat") {
   var query = "com.snapchat.android";
+} else if (query == "session") {
+  var query = "network.loki.messenger";
 }
 
 setTimeout(
