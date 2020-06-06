@@ -44,13 +44,20 @@ function darkMode(){
           color: toggle ? "#000" : "#f1f1f1"
         }, "-= 600")
         .add({
-          targets: "header, .report, .popup",
+          targets: "header, .report, .popup, .specs div:not(.card-wrap), .input",
           backgroundColor: toggle ? "#fff" : "#000"
         }, "-= 600")
         .add({
-          targets: "header h1 a",
+          targets: "header h1 a, .specs h5",
           color: toggle ? "#000" : "#fff"
+        }, "-= 600")
+        .add({
+          targets: "img",
+          update: function(){
+            $(".input img").css("filter", toggle ? 'invert(100%)' : 'invert(0%)');
+          }
         }, "-= 600");
+
 
         $.cookie("night",toggle ? 0 : 1);
         var cookieValue = $.cookie("night");

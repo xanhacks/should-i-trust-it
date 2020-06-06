@@ -136,6 +136,15 @@ header h1{
   font-size: 2.5vw;
 }
 
+.cards h4{
+  color: #222;
+  text-align: center;
+  margin-top: 4%;
+
+  font-family: Subtitle;
+  font-size: 1.7vw;
+}
+
 .search{
   width: 35%;
   margin-left: 32.5%;
@@ -171,6 +180,56 @@ header h1{
   font-family: Desc;
   font-size: 0.6vw;
   opacity: 0.7;
+}
+
+.specs{
+  height: 30%;
+  width: 60%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.specs img{
+  width: 4vw;
+  margin: 5%;
+  margin-left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.specs div:not(.card-wrap){
+  width: 22%;
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 9%;
+  box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.3);
+}
+
+.specs .card-wrap{
+  margin-top: 22%;
+}
+
+.specs .noanalytics{
+  padding-top: 2%;
+}
+
+.specs h5{
+  margin-top: 5%;
+  font-family: Subtitle;
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+.specs p{
+  font-family: Desc;
+  font-size: .9vw;
+  text-align: center;
+  width: 70%;
+  margin: 5% 0% 15% 15%;
+}
+
+.specs p a{
+  color: blue;
 }
 
 .report h1{
@@ -277,7 +336,7 @@ header h1{
 
 .head{
   margin-left: 50%;
-  transform: translate(-18%, 0%);
+  transform: translate(-18a        %, 0%);
   padding-top: 3%;
   margin-top: 5%;
 }
@@ -490,7 +549,12 @@ header h1{
     width: 25px;
     height: 25px;
   }
+
   .dark{
     padding: 9px 9px 7px 10px;
-   }
+  }
+
+  .specs{
+    display: none;
+  }
 }
