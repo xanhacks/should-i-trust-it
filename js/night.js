@@ -48,7 +48,7 @@ function darkMode(){
           backgroundColor: toggle ? "#fff" : "#000"
         }, "-= 600")
         .add({
-          targets: "header h1 a, .specs h5, .app-card h5, .app-card .percent, h4",
+          targets: "header h1 a, .specs h5, .app-card h5, .app-card .percent, h4, #input",
           color: toggle ? "#000" : "#fff"
         }, "-= 600")
         .add({

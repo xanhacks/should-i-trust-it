@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Should I Trust It</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./icon.svg">
+    <link rel="icon" href="./img/icon.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/css/autoComplete.min.css">
   </head>
   <body>
     <header>
@@ -20,33 +21,29 @@
 
     <div class="search">
       <div class="input">
-        <input type="text">
-        <img src="./search.svg" class="search-icon">
+        <input type="text" id="input" placeholder="Entrez le nom de l'app, son id ou son lien sur le Google Play Store">
+        <img src="./img/search.svg" class="search-icon">
       </div>
-      <p>
-        Vous pouvez rechercher une application en utilisant son nom, son identifiant ou son URL sur le Google Play Store<br>
-        ex: <strong>signal</strong> ou <strong>org.thoughtcrime.securesms</strong> ou <strong>https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms</strong>
-      </p>
     </div>
 
     <div class="specs">
       <div class="nomoney">
         <div class="card-wrap">
         <h5>Indépendance</h5>
-        <img src="./nomoney.png" alt="">
+        <img src="./img/nomoney.png" alt="">
         <p>Tous les tests sur ce site sont 100% indépendants</p>
         </div>
       </div>
       <div class="opensource">
         <div class="card-wrap">
         <h5>Open Source</h5>
-        <img src="./opensource.png" alt="">
+        <img src="./img/opensource.png" alt="">
         <p>Ce projet est à 100% opensource ! Tout le code est disponible <a href="https://github.com/ebanDev/should-i-trust-it">ici</a></p>
         </div>
       </div>
       <div class="noanalytics">
         <h5>Pas de tracking</h5>
-        <img src="./noanalytics.png" alt="">
+        <img src="./img/noanalytics.png" alt="">
         <p>Ce site ne contient aucun tracking/analytics et ne contient aucune publicité</p>
       </div>
     </div>
@@ -59,7 +56,7 @@
       <div class="card-wrap">
         <div class="app-card">
           <h5>Briar</h5>
-          <img src="https://f-droid.org/repo/icons-640/org.briarproject.briar.android.10207.png" alt="">
+          <img src="./img/briar.png" alt="">
           <div class="dot green"></div>
           <a class="percent">100/100</a>
           <p><a href="https://play.google.com/store/apps/details?id=org.briarproject.briar.android">Briar</a> est une application de messagerie open-source et décentralisée.</p>
@@ -83,15 +80,19 @@
       </div>
     </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
-  <script src="./app.js" charset="utf-8"></script>
+
   <div class="dark">
     <svg id="darkMode" width="40" height="40" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path class="sun" d="M250 125C250 194.036 194.036 250 125 250C55.9644 250 0 194.036 0 125C0 55.9644 55.9644 0 125 0C194.036 0 250 55.9644 250 125Z" fill="#FFD600" />
     </svg>
   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js" integrity="sha256-hBMojZuWKocCflyaG8T19KBq9OlTlK39CTxb8AUWKhY=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha256-1A78rJEdiWTzco6qdn3igTBv9VupN3Q1ozZNTR4WE/Y=" crossorigin="anonymous"></script>
-  <script src="./night.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js" integrity="sha256-RWiU4omUU7tQ2M3wmRQNW9UL50MB4CucbRPCbsQv+X0=" crossorigin="anonymous"></script>
+  <script src="./js/night.js" charset="utf-8"></script>
+  <script src="./js/search.js" charset="utf-8"></script>
+
   </body>
 </html>
