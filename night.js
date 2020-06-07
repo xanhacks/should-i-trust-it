@@ -44,11 +44,11 @@ function darkMode(){
           color: toggle ? "#000" : "#f1f1f1"
         }, "-= 600")
         .add({
-          targets: "header, .report, .popup, .specs div:not(.card-wrap), .input",
+          targets: "header, .report, .popup, .specs div:not(.card-wrap), .input, .app-card",
           backgroundColor: toggle ? "#fff" : "#000"
         }, "-= 600")
         .add({
-          targets: "header h1 a, .specs h5",
+          targets: "header h1 a, .specs h5, .app-card h5, .app-card .percent, h4",
           color: toggle ? "#000" : "#fff"
         }, "-= 600")
         .add({

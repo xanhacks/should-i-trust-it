@@ -182,7 +182,7 @@ header h1{
   opacity: 0.7;
 }
 
-.specs{
+.specs, .cards .card-wrap{
   height: 30%;
   width: 60%;
   margin-left: 20%;
@@ -190,14 +190,24 @@ header h1{
   justify-content: space-around;
 }
 
-.specs img{
+.app-card a{
+  color: #000;
+  font-family: Desc;
+}
+
+.specs img, .cards .app-card img{
   width: 4vw;
   margin: 5%;
   margin-left: 50%;
   transform: translate(-50%, 0%);
+  border-radius: 10px;
 }
 
-.specs div:not(.card-wrap){
+.cards .app-card img{
+  width: 3.5vw;
+}
+
+.specs div:not(.card-wrap), .cards .app-card{
   width: 22%;
   background: #fff;
   border-radius: 10px;
@@ -213,14 +223,28 @@ header h1{
   padding-top: 2%;
 }
 
-.specs h5{
+.specs h5, .app-card h5{
   margin-top: 5%;
   font-family: Subtitle;
   font-size: 1.3vw;
   text-align: center;
 }
 
-.specs p{
+.app-card h5{
+  font-size: 1.7vw;
+  padding: 3%;
+}
+
+.app-card .percent{
+  font-size: 1.15vw;
+  vertical-align: middle;
+}
+
+.app-card .dot{
+  margin-left: 3.7vw;
+}
+
+.specs p, .app-card p{
   font-family: Desc;
   font-size: .9vw;
   text-align: center;
@@ -228,7 +252,7 @@ header h1{
   margin: 5% 0% 15% 15%;
 }
 
-.specs p a{
+.specs p a, .app-card p a{
   color: blue;
 }
 
@@ -276,7 +300,7 @@ header h1{
   display: inline-block;
 }
 
-.report .dot{
+.dot{
   width: 1.2vw;
   height: 1.2vw;
   background: #000;
@@ -336,7 +360,7 @@ header h1{
 
 .head{
   margin-left: 50%;
-  transform: translate(-18a        %, 0%);
+  transform: translate(-18%, 0%);
   padding-top: 3%;
   margin-top: 5%;
 }
@@ -539,7 +563,7 @@ header h1{
     font-size: 4.3vw;
   }
 
-  .report .dot{
+  .dot{
     width: 3.5vw;
     height: 3.5vw;
     vertical-align: middle;
@@ -554,7 +578,53 @@ header h1{
     padding: 9px 9px 7px 10px;
   }
 
-  .specs{
-    display: none;
+  .cards h4{
+    margin-top: 20%;
+
+    font-size: 5vw;
+  }
+
+  .card-wrap, .specs{
+    display: inherit !important;
+  }
+
+  .cards .app-card, .specs div:not(.card-wrap){
+    width: 80%;
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+
+  .app-card h5, .specs h5{
+    font-size: 6vw;
+    padding-top: 5vw;
+  }
+
+  .specs h5{
+    font-size: 5vw;
+  }
+
+  .cards .app-card img, .specs img{
+    width: 8vw;
+    margin-top: 0;
+    margin-bottom: 6vw;
+  }
+
+  .specs img{
+    margin-top: 3vw;
+    width: 12vw;
+    margin-bottom: 4vw;
+  }
+
+  .percent{
+    font-size: 3.5vw !important;
+  }
+
+  .app-card .dot{
+    margin-left: -21vw;
+  }
+
+  .app-card p, .specs p{
+    font-size: 3vw;
+    padding-bottom: 7vw;
   }
 }
