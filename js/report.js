@@ -3,7 +3,6 @@ var urlParams = new URLSearchParams(queryString);
 var query = urlParams.get('s');
 var query = query.toLowerCase();
 var isurl = query.slice(0, 5);
-$(".popup").hide();
 
 function popup() {
   $(".popup").show();
@@ -44,6 +43,8 @@ setTimeout(
     var company = parseInt($(".5").html()) / 3 * 15;
     var total = exodus + policy + cipher + opensource + company;
     $(".score").html(Math.round(total));
+
+    $(".popup").hide();
   }, 300);
 
 
